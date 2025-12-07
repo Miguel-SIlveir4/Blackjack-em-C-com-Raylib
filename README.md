@@ -67,6 +67,7 @@ Desenha cartas na tela como retângulos com texto.
 
 🔧 Dependências
 Raylib instalada no sistema
+
 Compilador C (GCC recomendado)
 
 🔨 Comando de compilação (Windows + MinGW):
