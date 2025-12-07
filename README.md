@@ -4,7 +4,9 @@ Este é um projeto simples do jogo Blackjack (21) desenvolvido em C, utilizando 
 
 O objetivo é demonstrar lógica de programação, estruturas, arrays, aleatoriedade e interação com o teclado dentro de um projeto visual.
 
+
 🃏 Funcionalidades
+
 
 Compra de cartas aleatórias com valores reais do Blackjack
 
@@ -20,6 +22,7 @@ Sistema de vitória, derrota e empate
 
 Reinício da partida com um toque de tecla
 
+
 🎮 Controles
 
 H	Comprar carta (Hit)
@@ -28,6 +31,7 @@ R	Reiniciar o jogo
 ESC	Fechar o programa
 
 🖥️ Como o jogo funciona
+
 ➤ Jogador
 
 Começa com duas cartas.
@@ -73,7 +77,9 @@ Raylib instalada no sistema
 
 Compilador C (GCC recomendado)
 
-🔨 Comando de compilação (Windows + MinGW):
+🔨 Comando de compilação
+
+(Windows + MinGW):
 
 gcc blackjack.c -o blackjack -lraylib -lopengl32 -lgdi32 -lwinmm
 
