@@ -21,6 +21,7 @@ Sistema de vitória, derrota e empate
 Reinício da partida com um toque de tecla
 
 🎮 Controles
+
 H	Comprar carta (Hit)
 S	Parar jogada (Stand)
 R	Reiniciar o jogo
@@ -50,6 +51,7 @@ Você perdeu!
 Empate!
 
 🗂️ Estrutura do Código
+
 Principais funções:
 Carta comprarCarta()
 
@@ -66,12 +68,15 @@ Desenha cartas na tela como retângulos com texto.
 📦 Como compilar
 
 🔧 Dependências
+
 Raylib instalada no sistema
 
 Compilador C (GCC recomendado)
 
 🔨 Comando de compilação (Windows + MinGW):
+
 gcc blackjack.c -o blackjack -lraylib -lopengl32 -lgdi32 -lwinmm
 
 Linux:
+
 gcc blackjack.c -o blackjack -lraylib -lm -lpthread -ldl -lrt -lX11
